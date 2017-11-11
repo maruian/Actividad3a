@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.actividad3a.SegonFinestra"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textNombre"
+        android:text="Nombre: "
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/textMuestraNombre"
+        android:text=""
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/textDNI"
+        android:text="DNI: "
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/textMuestraDNI"
+        android:text=""
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/textFechaNacimiento"
+        android:text="Fecha de Nacimiento:"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/textMuestraFechaNacimiento"
+        android:text=""
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/textSexo"
+        android:text="Sexo:"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/textMuestraSexo"
+        android:text=""
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="24dp"/>
+
+</LinearLayout>
